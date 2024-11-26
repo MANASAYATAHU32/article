@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #FAF9F6;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img{
+    width: 180px;
+}
+
+header .input {
+    display: flex;
+}
+
+header .input input {
+    height: 40px;
+    outline: none;
+    width: 260px;
+    border: none;
+    border-right: none;
+    padding: 0 0 0 20px;
+    border-radius: 4px 0 0 4px;
+    background-color: #434343;
+    color: #d0d5dd;
+    font-size: 14px;
+}
+
+header .input input::placeholder {
+    color: #d0d5dd;
+    font-size: 14px;
+    font-style: italic;
+}
+
+header .input .searchimg {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #434343;
+}
+
+header .input .searchimg img {
+    width: 25px;
+    height: 25px;
+}
+
+nav {
+    width: 100%;
+    background-color: #282A35;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    width: 90%;
+}
+
+nav ul li {
+    list-style: none;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+nav ul li:hover {
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+article main {
+    width: 75%;
+}
+
+article main h1 {
+    padding: 3rem 0;
+}
+
+article p {
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282A35;
+    padding: 40px 0;
+    color: white;
+}
+
+a {
+    color: white;
+}
